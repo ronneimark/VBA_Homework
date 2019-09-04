@@ -22,6 +22,9 @@ ws.Activate
     i = 2
     t = 2
     
+    Starting = 0
+    Closing = 0
+    
     TotalVolume = 0
     
     Do While Cells(i, 1) <> ""
@@ -69,6 +72,10 @@ ws.Activate
     Dim LowestTicker As String
     Dim HighVolTicker As String
     
+    
+    HighestPercent = 0
+    LowestPercent = 0
+    GreatestVolume = 0
 
     j = 2
 
